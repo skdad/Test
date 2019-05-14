@@ -254,4 +254,48 @@ ul{list-style:none;}
 .productChannel li p{color: #666;font-size: 13px;line-height: 20px;height:48px;}
 .viewmore{font-size: 14px;color: #5E5E5E;}
 .tag{position: absolute;color:white;background:#e71224;padding:0 0.8em;height:2.125em;line-height:2.125em;top:0;left:0;}
+/*应用列表*/
+.appsChannel{width:100%;margin-bottom:45px;height:250px;}
+.appsChannel li{width:124px;margin:0 11px;float:left;}
+.appsChannel .Containerbox li>img{margin-bottom:11px;}
+.name{font-size:14px;display:inline-block;overflow:hidden;line-height: 18px;height: 36px;}
+.stars{width: 93px;height: 16px;position: relative;background-color: #C7C7C7;}
+.stars img{position: absolute;top: 0;left: 0;height: 16px;z-index: 100;}
+.stars div{z-index: 99;position: absolute;top: 0;left: 0;height: 16px;background-color: #da3b01;}
+/*服务*/
+.msPromise{height:97px;margin-bottom:20px;border-top:1px solid #cccccc;}
+.msPromise ul{width:100%;height:100%;overflow: auto;}
+.msPromise a{color:black;}
+.msPromise li i{font-size:  30px;}
+.msPromise li{float:left;width:16%;margin:21px 0;text-align:center;border-right: 1px solid #cccccc;}
+.msPromise li:nth-of-type(6){border-right:none;}
+.msPromise li p{font-size: 16px;line-height: 1.2em;color: #666;margin-top: 5px;}
+        /*  尾部  */
+/*优惠*/
+.footer{
+    width:100%;
+    background:#eeeeee;
+}
+.footer_signup{border-bottom: 1px solid #737373;color: #666;padding: 15px 0;line-height: 36px;}
+.iptBox {margin-left:15px;}
+.iptBox input{padding: 0 5px;width: 220px;    border: 1px solid #cccccc;    font-size: 14px;height: 30px;display: inline-block;}
+.iptBox button{display: inline-block;width: 80px;text-decoration: none;color: #fff;line-height: 30px;background-color: #0067b8;font-size: 14px;margin-left: -5px;text-align: center;border: none;}
+.footer_signup a{text-decoration:underline; font-size: 12px;color:#0d71a6;margin-left:15px;}
+.footer_signup span,.iptBox,.footer_signup a{display:inline-block}
+.footer_list{margin:30px 0;}
+.footer_li {float:left;width:22%;}
+.footer_li:nth-of-type(4){float:right}
+.footer_block {margin-bottom:23px;}
+.footer_li>div>span{display:block;color: #333333;line-height: 36px;font-size: 16px;}
+.footer_li>div>ul{margin-top:16px;font-size:14px;}
+.footer_li>div>ul li{height:30px;}
+.footer_li>div>div{width:50%;text-align:center;font-size:14px;display:inline-block}
+.footer_li>div>div img{width:94%;margin-bottom:10px;}
 
+/*顶部商标*/
+.copyright_info{width:100%;height:60px;background:#f2f2f2;font-size:12px;}
+.copyright_info .Containerbox>a{width:150px;height:60px;line-height: 60px;color: #333;float:left;}
+.copyright{width: calc(100% - 160px);display:inline-block;}
+.copyright ul{width:100%;height:60px;}
+.copyright a{color:#333;}
+.copyright ul li{float:right;line-height:60px;padding:0 5px;}

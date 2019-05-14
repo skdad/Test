@@ -123,15 +123,44 @@ $(function () {
             $('<div></div>').html(data.appsChannel.channelTitle).appendTo('.appsChannel .Containerbox').addClass('channelTitle')
                 //游戏列表
             var appList
-            var appsChannel = $('<ul></ul>')
+            var appsChannel = $('<ul></ul>').appendTo('.appsChannel .Containerbox')
             $.each(data.appsChannel.appList,function (i,t) {
                 var img = $('<img width="124"/>').prop('src',t.img);
-                var name = $('<a href="#"></a>').html(t.name);
-                console.log(t);
-                appList = $('<li></li>').append(img,name);
-                appList.appendTo();
+                var name = $('<a href="#"></a>').html(t.name).addClass('name bluea');
+                var stars =$('<div></div>').addClass('stars').append($('<img/>').prop('src',t.stars.star_icon),$('<div></div>').width(t.stars.progress));
+                appList = $('<li></li>').append(img,name,stars);
+                appList.appendTo(appsChannel);
             })
             //热门应用列表*
+            //*尾部列表
+            $.each(data.footer.list,function (i,t) {        //循环所有的list
+                var obj = $('.footer_li').eq(i);
+                $.each(t,function (j,u) {       //循环所有list里的内容
+                    var box = $('<div></div>').addClass('footer_block');
+                    if(u.title){
+                        var title = $('<span></span>').html(u.title).appendTo(box);
+                    }
+                    if(u.links){
+                        var ul = $('<ul></ul>').appendTo(box);
+                        $.each(u.links,function (index,me) {    //循环内容里的链接
+                            var li = $('<li></li>').appendTo(ul);
+                            $('<a href="#"></a>').html(me).appendTo(li).addClass('bluea')
+                        });
+                    }
+                    if(u.imgs){
+                        var weibo = $('<i></i>').addClass('iconfont icon-weibo').css({'color':'#e71f19','font-size':'50px'})
+                        var firse_p = $('<p></p>').html('官方微博');
+                        var firse_p2 = $('<p></p>').html('微博官方商城');
+                        $('<div></div>').append(weibo,firse_p,firse_p2).appendTo(box);
+                        var img = $('<img/>').prop('src',u.imgs);
+                        var p =$('<p><i class="iconfont icon-weixin" style="color:#81e22d"></i>微信公众号</p>')
+                        var p2 = $('<p></p>').html('微软官方商城');
+                        $('<div></div>').append(img,p,p2).appendTo(box)
+                    }
+                    box.appendTo(obj)
+                });
+            })
+            //尾部列表*
         }
     });
     $('.login').hover(function () {
@@ -198,7 +227,7 @@ $(function () {
             $('.icon-Right-').click()
         },2000)
     }
-    time()
+    time();
     $('.mainContainer').hover(function () {
         clearInterval(Time)
     },function () {
