@@ -163,6 +163,48 @@ $(function () {
             //尾部列表*
         }
     });
+    //窗口滚动事件
+    var max  = $('.nav2').offset().top
+    $(document).scroll(function () {
+        var Top = $(document).scrollTop();
+        if(Top>max){
+            $('.nav2').css({'position':'fixed','top':0})
+            $('.sliderContainer').css('margin-top','75px')
+        }else{
+            $('.nav2').css({'position':'relative'})
+            $('.sliderContainer').css('margin-top','0')
+        }
+    });
+    //客服点击事件
+    $('.kefu>button').click(function () {
+        $('.kefu').toggleClass('show');
+        if($('.kefu').hasClass('show')){
+            $(this).hide();
+            $('.chatDialog').show();
+        }
+    });
+        //关闭事件
+    $('.kefu .close').click(function () {
+            $('.chatDialog').hide();
+            $('.kefu').removeClass('show')
+            $('.kefu button').show()
+        }
+    );
+    //订阅点击事件
+    $('.dingyue').click(function () {
+        $('.inactDialog ').toggleClass('show')
+        if($('.inactDialog').hasClass('show')){
+            $('.inactDialog').show()
+            $('.dingyue').hide()
+        }
+    })
+    $('.content .close').click(function () {
+        $('.dingyue').show()
+        $('.inactDialog ').removeClass('show').hide()
+
+    })
+
+
     $('.login').hover(function () {
         $(this).css({border:'1px solid #e0e0e0','border-bottom':'1px solid white','background':'white'});
         $('.userLink').show()

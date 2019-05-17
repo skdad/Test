@@ -116,9 +116,11 @@ ul{list-style:none;}
 }
 
 .nav2{
+    z-index: 999;
     width:100%;
     height:71px;
     line-height:71px;
+    background:white;
     border-bottom:1px solid rgba(0, 0, 0, 0.2);
 }
 .nav2_Container{
@@ -260,8 +262,8 @@ ul{list-style:none;}
 .appsChannel .Containerbox li>img{margin-bottom:11px;}
 .name{font-size:14px;display:inline-block;overflow:hidden;line-height: 18px;height: 36px;}
 .stars{width: 93px;height: 16px;position: relative;background-color: #C7C7C7;}
-.stars img{position: absolute;top: 0;left: 0;height: 16px;z-index: 100;}
-.stars div{z-index: 99;position: absolute;top: 0;left: 0;height: 16px;background-color: #da3b01;}
+.stars img{position: absolute;top: 0;left: 0;height: 16px;z-index: 20   ;}
+.stars div{z-index: 10;position: absolute;top: 0;left: 0;height: 16px;background-color: #da3b01;}
 /*服务*/
 .msPromise{height:97px;margin-bottom:20px;border-top:1px solid #cccccc;}
 .msPromise ul{width:100%;height:100%;overflow: auto;}
@@ -299,3 +301,31 @@ ul{list-style:none;}
 .copyright ul{width:100%;height:60px;}
 .copyright a{color:#333;}
 .copyright ul li{float:right;line-height:60px;padding:0 5px;}
+
+
+/*侧边栏*/
+.kefu{position: fixed;right:0;top:40%;z-index:99;}
+.kefu .show{width:280px;box-sizing: border-box;color:#666;}
+.chatDialog{border:2px solid #cccccc;display:none;}
+.kefu>button{width:100%;height:100%;border:0;cursor: pointer;outline:none}
+.head{text-align:center;line-height:65px;background:#363636;color:#fff;}
+.head span{width:45px;height:45px;display: inline-block; background-size: contain;    vertical-align: middle;}
+.kefu .content{width:100%;padding:10px;background:white;box-sizing: border-box;}
+.kefu .content button{margin-top:13px;font-size:16px;}
+.top{width:100%;height:98px;border-bottom:1px solid #cccccc}
+.bottom{padding:10px 0;box-sizing: border-box;}
+.bottom li{font-size:12px;line-height:18px;}
+.bottom span{font-size:14px;margin-bottom:15px;}
+.close{position:absolute;top:0;right:0;color:white;cursor:pointer;width:40px;height:40px;text-align:center;line-height:40px;}
+
+.dingyue{width:35px; border: none;height:39px;position: fixed;right:0;bottom:86px;outline:none;cursor:pointer;}
+.inactDialog{width:100%;height:100%;background:rgba(0, 0, 0, 0.5);position: fixed;left:0;top:0;z-index: 999;display:none;}
+.inactDialog .content{z-index:1000;width:360px;height:306px;background-color: #eee;text-align: center;position: fixed;opacity: 1 !important;left:35%;top:35%;padding-top:30px;}
+.popContainer{width:260px;margin:0 auto;}
+.popContainer p:nth-of-type(2){text-align:left;font-size:14px;}
+.popContainer h3{font-size:22px;line-height:40px;}
+.popContainer input{width:234px;height:30px;display:block;margin:6px 0;padding:0 5px;}
+.linkBox{width:240px;height:30px;text-align:right;margin-top:15px;}
+.linkBox a{font-size:12px;}
+.linkBox button{color: #fff; width: 80px;height: 30px;    background-color: #0067b8;outline:none;border:none;cursor:pointer;}
+.content .close{color:black  !important;}
