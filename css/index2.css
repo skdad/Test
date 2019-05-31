@@ -1,0 +1,55 @@
+*{background-repeat: no-repeat;}
+a{color:#0078d7;}
+.index2{margin-top:55px;}   /*底部商标*/
+.breadcrumbs{font-size:12px;line-height:24px;}
+button{outline:none;border:none;}
+.breadcrumbs a{color:#515151;}
+.swiper-container-horizontal{width:930px;height:220px;position: relative;}
+.lunbo li{float:left;width:930px;}
+.swiper-container-horizontal{width:930px;height:423px;overflow: hidden;}
+.icon-yuanxuankuang2{color:#157ad6}
+
+.info{width:250px;height:423px;background:#eeeeee;float:right;}
+.welcome{padding:5px 15px;border-bottom:1px solid #999999;font-size:14px;}
+.welcome .text{font-size:14px;color:#333;padding:5px 0;}
+.welcome .btns{padding:7px 0;}
+.welcome .btns button{width:167px;height:30px;text-align:center;color:white;background:#0078d7;font-size:14px;margin-right:15px;cursor: pointer;}
+.welcome .btns a{color:#0078d7;text-decoration: underline;}
+.list{width:100%;padding:0 0 5px 20px;border-bottom:1px solid #999999;box-sizing: border-box;}
+.list i,.tel i{display:inline-block;font-size:34px;color:#0078d7;}
+.list div,.tel div{display:inline-block;color:#333;margin-top:15px;}
+.list div p{font-size:14px;}
+.tel{padding-left:20px;}
+.tel div{margin-top:8px;}
+.tel div p{font-size:14px;}
+/*主盒子*/
+.itemBox{width:100%;margin-top:25px;}
+    /*标题部分*/
+.itemBox .title{height:57px;position: relative;border-bottom:1px solid #333;}   /*标题盒子*/
+.itemBox .title h1{font-size:30px; line-height: 56px;color: #333;padding-left: 20px;}        /*大标题*/
+.itemBox .title a{position: absolute;color:#333333;right:0;font-size: 14px;font-weight: bold;line-height:57px;top:0;}    /*更多链接*/
+    /*列表部分*/
+.itemList {width:100%;overflow: auto;border-left: 1px solid #f1f1f1;border-top: 1px solid #f1f1f1;background-repeat: no-repeat;}  /*列表盒子*/
+.content .Containerbox .item{color:#333;width:25%;height:500px;padding:18px;box-sizing: border-box;float:left;border-right: 1px solid #f1f1f1;border-bottom: 1px solid #f1f1f1;font-family: "Microsoft YaHei", "Hiragino Sans GB", "sans-serif";position: relative;}     /*每一个列表*/
+.itemList .banner{  background-color: #f8f8f8;background-position: 0 80%;background-size: contain;}     /*宣传盒子*/
+.itemList .banner h2{font-size: 22px;line-height: 32px;font-weight: normal;}    /*宣传盒子里h2*/
+    /*商品部分*/
+.item h3{font-size: 16px;line-height: 24px;font-weight: normal;}    /*标题部分*/
+.item h4{font-size: 14px;color: #666666;line-height: 24px;font-weight: normal;}        /*描述部分*/
+.item .active{position: absolute;bottom: 18px;right: 18px;left: 18px;}     /*底部盒子部分*/
+.item .active p:nth-of-type(1){margin-bottom:8px;}
+.item .active del{font-size: 13px;line-height: 22px;color: #999999;}     /*删除线*/
+.item .active .Price2{  color: #0078d7;font-size: 13px;line-height: 22px;}      /*价格1*/
+.item .active .Price2 span{    font-weight: bold;font-size: 18px;}            /*价格2*/
+.item .active .btn{   width: 100%;height: 35px;line-height: 35px;text-align: center;font-size: 14px;background: #0078d7;display: inline-block;color:white !important;}        /*按钮*/
+
+/*侧边栏*/
+.float{position: fixed;right: 0;top: 180px;z-index: 2;}
+.float a{    width: 172px;height: 40px;color: #fff;display: inline-block;font-size: 15px;transform-origin: 100% 100%;transform: rotate3d(0, 0, 1, -90deg);background-color: #262626;text-align: center;line-height: 40px;position: relative;top: -40px;}
+.talkBox {width:277px;height:239px;background:#262626;padding:20px;position: absolute;right: -277px;top: 0;box-sizing: border-box;}   /*隐藏侧边栏*/
+.talkBox>span{font-size:22px;color:#fff;}
+.talkBox>ul{color:#fff;}
+.talkBox>ul li{overflow:auto;margin:15px 0;cursor:pointer;}
+.talkBox>ul .icon .iconfont{color:#fff;border:1px solid  #fff;display:inline-block;border-radius:50px;text-align:center;font-size:25px;width: 35px;height: 35px;line-height:35px;}
+.talkBox>ul .center .title{font-size:15px;display:block;line-height:15px;}
+.talkBox>ul .center span{line-height:14px;font-size:12px;display:inline-block;}

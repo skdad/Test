@@ -5,6 +5,7 @@
     },
     "nav2":{
       "list":["硬件","软件","商务","教育","以旧换新","领劵中心"],
+      "url":["javascript:","javascript:","index2.html","index3.html","javascript:","#javascript:"],
       "list2":["订单跟踪","30天退换货"],
       "childlist0":["Suface","电脑与平板","Xbox+游戏","混合现实","配件"],
       "childlist1":["Office","Windows","Apps and Windows 10游戏","Visual Studio","Microsoft Complete","其他软件与服务"]

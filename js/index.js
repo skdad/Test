@@ -15,24 +15,26 @@ $(function () {
                 }
                 $(box).appendTo('.userLink ul')
             });
+            //*导航条
             $.each(data.nav.nav2.list,function (i,t) {
                 var li = $('<li class="nav2_list_li"></li>'),box;
                 if(i<2){
                     $(li).css('cursor','pointer');
-                     box = $('<a class="bluea" href="#"></a>').html(t);
+                     box = $('<a class="bluea"></a>').html(t).prop("href",data.nav.nav2.url[i] );
                     var ul = $('<ul class="subMenu "></ul>');
                     $.each(data.nav.nav2['childlist'+i],function (i,t) {
                         $(ul).append($('<li></li>').html(t))
                     });
                     $(li).append(ul)
                 }else{
-                     box = $('<a class="bluea" href="#"></a>').html(t)
+                     box = $('<a class="bluea"></a>').html(t).prop("href",data.nav.nav2.url[i]).addClass('underline')
                 }
                 $(li.append(box)).appendTo($('.nav2_list'))
             });
             $('.nav2_Right>a').html(data.nav.nav2.list2[0]);
             $('.nav2_Right>span').html(data.nav.nav2.list2[1]);
             $('.lunbo').width((data.images.length+1)*1180);
+            //导航条*
 
             //*轮播图
             $.each(data.images,function (i,t) {
@@ -164,14 +166,16 @@ $(function () {
         }
     });
     //窗口滚动事件
-    var max  = $('.nav2').offset().top
+    if($('.nav2').length!=0){
+        var max  = $('.nav2').offset().top
+    }
     $(document).scroll(function () {
         var Top = $(document).scrollTop();
         if(Top>max){
-            $('.nav2').css({'position':'fixed','top':0})
+            $('.nav2').css({'position':'fixed','top':0});
             $('.sliderContainer').css('margin-top','75px')
         }else{
-            $('.nav2').css({'position':'relative'})
+            $('.nav2').css({'position':'relative'});
             $('.sliderContainer').css('margin-top','0')
         }
     });
@@ -197,9 +201,9 @@ $(function () {
             $('.inactDialog').show()
             $('.dingyue').hide()
         }
-    })
+    });
     $('.content .close').click(function () {
-        $('.dingyue').show()
+        $('.dingyue').show();
         $('.inactDialog ').removeClass('show').hide()
 
     })

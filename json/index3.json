@@ -1,0 +1,362 @@
+{
+  "content":{
+    "productBlock1":{
+      "banner":{
+        "imgs":"images/Surface-banner1.png",
+        "title":"Surface 精选机型及配件",
+        "p":"现已加入教育优惠",
+        "btn":"了解更多",
+        "caluse":"*更多Surface产品优惠，请参见本专区以外促销信息。"
+      },
+      "list":{
+        "item1":{
+          "imgs":"images/MIC2458-300Wx180H-1.png",
+          "name":"微软 Surface Studio 2",
+          "description":"酷睿 i7/16GB/1TB SSD/GTX 1060 6GB/亮铂金",
+          "selectContents":["酷睿 i7/16GB/1TB SSD/GTX 1060 6GB/亮铂金  微软 Surface Studio 2","酷睿 i7/32GB/1TB SSD/GTX 1070 8GB/亮铂金  微软 Surface Studio 2","酷睿 i7/32GB/2TB SSD/GTX 1070 8GB/亮铂金  微软 Surface Studio 2"]
+        },
+        "item2":{
+          "imgs":"images/MIC2462-300Wx180H-1.png",
+          "name":"微软 Surface Headphones",
+          "description":"浅灰色",
+          "selectContents":["微软 Surface Headphones"]
+        },
+        "item3":{
+          "imgs":"images/MIC2437-300Wx180H-1.png",
+          "name":"微软 Surface Pro 6",
+          "description":"酷睿 i5/8GB/256GB/典雅黑",
+          "selectContents":["酷睿 i5/8GB/256GB/典雅黑  微软 Surface Pro 6","酷睿 i7/8GB/256GB/典雅黑  微软 Surface Pro 6","酷睿 i7/16GB/512GB/典雅黑  微软 Surface Pro 6"]
+        },
+        "item4":{
+          "imgs":"images/MIC2435-300Wx180H-1.png",
+          "name":"微软 Surface Pro 6",
+          "description":"酷睿 i5/8GB/128GB/亮铂金",
+          "selectContents":["酷睿 i5/8GB/128GB/亮铂金  微软 Surface Pro 6","酷睿 i5/8GB/256GB/亮铂金  微软 Surface Pro 6","酷睿 i7/8GB/256GB/亮铂金  微软 Surface Pro 6","酷睿 i7/16GB/512GB/亮铂金  微软 Surface Pro 6","酷睿 i7/16GB/1TB/亮铂金  微软 Surface Pro 6"]
+        },
+        "item5":{
+          "imgs":"images/MIC2522-300Wx180H-1.png",
+          "name":"微软 Surface Laptop 2",
+          "description":"酷睿 i5/8GB/256GB/灰粉金",
+          "selectContents":["酷睿 i5/8GB/256GB/灰粉金  微软 Surface Laptop 2"]
+        },
+        "item6":{
+          "imgs":"images/MIC2452-300Wx180H-1.png",
+          "name":"微软 Surface Laptop 2",
+          "description":"酷睿 i5/8GB/256GB/典雅黑",
+          "selectContents":["酷睿 i5/8GB/256GB/典雅黑  微软 Surface Laptop 2","酷睿 i7/8GB/256GB/典雅黑  微软 Surface Laptop 2","酷睿 i7/16GB/512GB/典雅黑  微软 Surface Laptop 2"]
+        },
+        "item7":{
+          "imgs":"images/MIC2446-300Wx180H-1.png",
+          "name":"微软 Surface Laptop 2",
+          "description":"酷睿 i5/8GB/256GB/深酒红",
+          "selectContents":["酷睿 i5/8GB/256GB/深酒红  微软 Surface Laptop 2","酷睿 i7/8GB/256GB/深酒红  微软 Surface Laptop 2","酷睿 i7/16GB/512GB/深酒红  微软 Surface Laptop 2"]
+        },
+        "item8":{
+          "imgs":"images/MIC2447-300Wx180H-1.png",
+          "name":"微软 Surface Laptop 2",
+          "description":"酷睿 i5/8GB/256GB/灰钴蓝",
+          "selectContents":["酷睿 i5/8GB/256GB/灰钴蓝  微软 Surface Laptop 2","酷睿 i7/8GB/256GB/灰钴蓝  微软 Surface Laptop 2","酷睿 i7/16GB/512GB/灰钴蓝  微软 Surface Laptop 2"]
+        },
+        "item9":{
+          "imgs":"images/MIC2444-300Wx180H-1.png",
+          "name":"微软 Surface Laptop 2",
+          "description":"酷睿 i5/8GB/128GB/亮铂金",
+          "selectContents":["酷睿 i5/8GB/128GB/亮铂金  微软 Surface Laptop 2","酷睿 i5/8GB/256GB/亮铂金  微软 Surface Laptop 2","酷睿 i7/8GB/256GB/亮铂金  微软 Surface Laptop 2","酷睿 i7/16GB/512GB/亮铂金  微软 Surface Laptop 2","酷睿 i7/16GB/1TB/亮铂金  微软 Surface Laptop 2"]
+        },
+        "item10":{
+          "imgs":"images/MIC2391-300Wx180H-1.png",
+          "name":"微软 Surface Go",
+          "description":"英特尔 4415Y/4GB/64GB/WiFi",
+          "selectContents":["英特尔 4415Y/4GB/64GB/WiFi  微软 Surface Go","英特尔 4415Y/8GB/128GB/WiFi  微软 Surface Go","英特尔 4415Y/8GB/128GB/带 LTE 增强版  微软 Surface Go"]
+        },
+        "item11":{
+          "imgs":"images/MIC2405-300Wx180H-1.png",
+          "name":"微软认证翻新 Surface Pro（第五代）",
+          "description":"酷睿 m3/4GB/128GB/亮铂",
+          "selectContents":["酷睿 m3/4GB/128GB/亮铂金  微软认证翻新 Surface Pro（第五代）","酷睿 i5/4GB/128GB/亮铂金  微软认证翻新 Surface Pro（第五代）","酷睿 i5/8GB/128GB/亮铂金  微软认证翻新 Surface Pro（第五代）","酷睿 i5/8GB/256GB/亮铂金  微软认证翻新 Surface Pro（第五代）","酷睿 i7/8GB/256GB/亮铂金  微软认证翻新 Surface Pro（第五代）","酷睿 i7/16GB/512GB/亮铂金  微软认证翻新 Surface Pro（第五代）","酷睿 i7/16GB/1TB/亮铂金  微软认证翻新 Surface Pro（第五代）"]
+        },
+        "item12":{
+          "imgs":"images/MIC2564-300Wx180H-1.png",
+          "name":"微软认证翻新 Surface Book 2",
+          "description":"酷睿 i5/8GB/128GB/13.5英",
+          "selectContents":["酷睿 i5/8GB/128GB/13.5英寸  微软认证翻新 Surface Book 2","8代酷睿 i7/8GB/256GB/GTX 1050 2GB/13.5英寸  微软认证翻新 Surface Book 2","8代酷睿 i7/16GB/512GB/GTX 1050 2GB/13.5英寸  微软认证翻新 Surface Book 2","8代酷睿 i7/16GB/1TB/GTX 1050 2GB/13.5英寸  微软认证翻新 Surface Book 2"]
+        },
+        "item13":{
+          "imgs":"images/MIC2564-300Wx180H-1.png",
+          "name":"微软认证翻新 Surface Book 2",
+          "description":"8代酷睿 ",
+          "selectContents":["8代酷睿 i7/16GB/256GB/GTX 1060 6GB/15英寸  微软认证翻新 Surface Book 2","8代酷睿 i7/16GB/512GB/GTX 1060 6GB/15英寸  微软认证翻新 Surface Book 2","8代酷睿 i7/16GB/1TB/GTX 1060 6GB/15英寸  微软认证翻新 Surface Book 2"]
+        },
+        "item14":{
+          "imgs":"images/MIC2419-300Wx180H-1.png",
+          "name":"微软认证翻新 Surface Laptop",
+          "description":"酷睿 i5/4GB/128GB/亮铂金",
+          "selectContents":["酷睿 i5/4GB/128GB/亮铂金  微软认证翻新 Surface Laptop","酷睿 i5/8GB/256GB/亮铂金  微软认证翻新 Surface Laptop","酷睿 i5/8GB/256GB/灰钴蓝  微软认证翻新 Surface Laptop","酷睿 i5/8GB/256GB/石墨金  微软认证翻新 Surface Laptop","酷睿 i5/8GB/256GB/深酒红  微软认证翻新 Surface Laptop"]
+        },
+        "item15":{
+          "imgs":"images/MIC2585-300Wx180H-2.png",
+          "name":"微软认证翻新 Surface Go",
+          "description":"英特尔 4415Y/4GB/64GB/WiFi",
+          "selectContents":["英特尔 4415Y/4GB/64GB/WiFi  微软认证翻新 Surface Go","英特尔 4415Y/8GB/128GB/WiFi  微软认证翻新 Surface Go"]
+        },
+        "item16":{
+          "imgs":"images/MIC2387-300Wx180H-1.png",
+          "name":"微软 Surface Go 专业键盘盖",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软 Surface Go 专业键盘盖"]
+        },
+        "item17":{
+          "imgs":"images/MIC2388-300Wx180H-1.png",
+          "name":"微软 Surface Go 特制版专业键盘盖",
+          "description":"亮铂金",
+          "selectContents":["亮铂金  微软 Surface Go 特制版专业键盘盖","深酒红  微软 Surface Go 特制版专业键盘盖","灰钴蓝  微软 Surface Go 特制版专业键盘盖"]
+        },
+        "item18":{
+          "imgs":"images/MIC2393-300Wx180H-1.png",
+          "name":"微软 Surface 便携鼠标",
+          "description":"亮铂金",
+          "selectContents":["亮铂金  微软 Surface 便携鼠标","深酒红  微软 Surface 便携鼠标","灰钴蓝  微软 Surface 便携鼠标"]
+        },
+        "item19":{
+          "imgs":"images/MIC2384-300Wx180H-1.png",
+          "name":"微软 Surface USB-C 到 USB-A 适配器",
+          "description":"",
+          "selectContents":["微软 Surface USB-C 到 USB-A 适配器"]
+        },
+        "item20":{
+          "imgs":"images/MIC2386-300Wx180H-1.png",
+          "name":"微软 Surface USB-C 到 DisplayPort 适配器",
+          "description":"",
+          "selectContents":["微软 Surface USB-C 到 DisplayPort 适配器"]
+        },
+        "item21":{
+          "imgs":"images/MIC2385-300Wx180H-1.png",
+          "name":"微软 Surface USB-C 到以太网适配器",
+          "description":"",
+          "selectContents":["微软 Surface USB-C 到以太网适配器"]
+        },
+        "item22":{
+          "imgs":"images/MIC2396-300Wx180H-1.png",
+          "name":"微软 Surface 24W 电源适配器",
+          "description":"",
+          "selectContents":["微软 Surface 24W 电源适配器"]
+        },
+        "item23":{
+          "imgs":"images/MIC2327-300Wx180H-1.png",
+          "name":"微软 Surface Book 2",
+          "description":"8代酷睿 i7/16GB/256GB/GTX 1060 ",
+          "selectContents":[" 8代酷睿 i7/16GB/256GB/GTX 1060 6GB/15英寸  微软 Surface Book 2  "," 8代酷睿 i7/16GB/512GB/GTX 1060 6GB/15英寸  微软 Surface Book 2  "," 8代酷睿 i7/16GB/1TB/GTX 1060 6GB/15英寸  微软 Surface Book 2  "]
+        },
+        "item24":{
+          "imgs":"images/MIC2258-300Wx180H-1.png",
+          "name":"微软 Surface Book 2",
+          "description":"酷睿 i5/8GB/256GB/13.5英寸",
+          "selectContents":["酷睿 i5/8GB/256GB/13.5英寸  微软 Surface Book 2"," 8代酷睿 i7/8GB/256GB/GTX 1050 2GB/13.5英寸  微软 Surface Book 2"," 8代酷睿 i7/16GB/512GB/GTX 1050 2GB/13.5英寸  微软 Surface Book 2"," 8代酷睿 i7/16GB/1TB/GTX 1050 2GB/13.5英寸  微软 Surface Book 2"]
+        },
+        "item25":{
+          "imgs":"images/MIC2170-300Wx180H-1.png",
+          "name":"微软认证翻新 Surface Pro 4 中文版",
+          "description":"酷睿 m3/4GB/128GB/银色",
+          "selectContents":["酷睿 m3/4GB/128GB/银色（无键盘无笔）  微软认证翻新 Surface Pro 4 中文版","酷睿 i5/4GB/128GB/银色（无键盘含笔）  微软认证翻新 Surface Pro 4 中文版","酷睿 i5/8GB/256GB/银色（无键盘含笔）  微软认证翻新 Surface Pro 4 中文版","酷睿 i7/8GB/256GB/银色（无键盘含笔）  微软认证翻新 Surface Pro 4 中文版"]
+        },
+        "item26":{
+          "imgs":"images/MIC2173-300Wx180H-1.png",
+          "name":"微软认证翻新 Surface Book",
+          "description":"酷睿 i5/8GB/128GB/银色（含笔）",
+          "selectContents":["酷睿 i5/8GB/128GB/银色（含笔）  微软认证翻新 Surface Book","酷睿 i5/8GB/256GB/银色/独立显卡（含笔）  微软认证翻新 Surface Book","酷睿 i7/8GB/256GB/银色/独立显卡（含笔）  微软认证翻新 Surface Book","酷睿 i7/16GB/512GB/银色/独立显卡（含笔）  微软认证翻新 Surface Book"]
+        },
+        "item27":{
+          "imgs":"images/MIC1962-300Wx180H-1.png",
+          "name":"微软 Surface Dial",
+          "description":"",
+          "selectContents":["微软 Surface Dial"]
+        },
+        "item28":{
+          "imgs":"images/MIC2284-300Wx180H-1.png",
+          "name":"微软 Surface Pro 专业键盘盖",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软 Surface Pro 专业键盘盖"]
+        },
+        "item29":{
+          "imgs":"images/MIC2274-300Wx180H-1.png",
+          "name":"微软带指纹识别的 Surface Pro 专业键盘盖",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软带指纹识别的 Surface Pro 专业键盘盖"]
+        },
+        "item30":{
+          "imgs":"images/MIC1971-300Wx180H-1.png",
+          "name":"微软 Surface Pro 特制版专业键盘盖（新）  ",
+          "description":"亮铂金",
+          "selectContents":["亮铂金  微软 Surface Pro 特制版专业键盘盖（新）","灰钴蓝  微软 Surface Pro 特制版专业键盘盖（新）","深酒红  微软 Surface Pro 特制版专业键盘盖（新）"]
+        },
+        "item31":{
+          "imgs":"images/MIC1556-300Wx180H-01.png",
+          "name":"微软 Surface 扩展坞",
+          "description":"黑色",
+          "selectContents":["黑色  微软 Surface 扩展坞"]
+        },
+        "item32":{
+          "imgs":"images/MIC1541-300Wx180H-1.png",
+          "name":"微软 Surface 以太网适配器",
+          "description":"黑色",
+          "selectContents":["黑色  微软 Surface 以太网适配器"]
+        },
+        "item33":{
+          "imgs":"images/MIC2461-300Wx180H-1.png",
+          "name":"微软 Surface 44W 电源适配器",
+          "description":"",
+          "selectContents":["微软 Surface 44W 电源适配器"]
+        },
+        "item34":{
+          "imgs":"images/MIC2342-300Wx180H-1.png",
+          "name":"微软 Surface 精准鼠标",
+          "description":"",
+          "selectContents":["  微软 Surface 精准鼠标"]
+        },
+        "item35":{
+          "imgs":"images/MIC1999-300Wx180H-1.png",
+          "name":"微软 Surface Arc 鼠标（新）",
+          "description":"亮铂金",
+          "selectContents":["亮铂金  微软 Surface Arc 鼠标（新）","深酒红  微软 Surface Arc 鼠标（新）","灰钴蓝  微软 Surface Arc 鼠标（新）","湖光绿  微软 Surface Arc 鼠标（新）"]
+        },
+        "item36":{
+          "imgs":"images/MIC1975-300Wx180H-1.png",
+          "name":"微软 Surface 触控笔（新）",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软 Surface 触控笔（新）","亮铂金  微软 Surface 触控笔（新）","灰钴蓝  微软 Surface 触控笔（新）","深酒红  微软 Surface 触控笔（新）"]
+        },
+        "item37":{
+          "imgs":"images/MIC2279-300Wx180H-1.png",
+          "name":"微软 Surface USB-C 到 HDMI 适配器",
+          "description":"黑色",
+          "selectContents":["黑色  微软 Surface USB-C 到 HDMI 适配器"]
+        },
+        "item38":{
+          "imgs":"images/MIC2281-300Wx180H-1.png",
+          "name":"微软 Surface USB-C 到 VGA 适配器",
+          "description":"黑色",
+          "selectContents":["黑色  微软 Surface USB-C 到 VGA 适配器"]
+        }
+
+
+      }
+    },
+    "productBlock2":{
+      "banner":{
+        "imgs":"images/office-banner.jpg",
+        "title":"Office 365",
+        "title2":"支持跨系统、多设备安装",
+        "p":"每位用户 1TB 云存储",
+        "btn":"了解更多"
+      },
+      "list":{
+        "item1":{
+          "imgs":"images/QQ2-00009-300Wx180H-1.jpg",
+          "name":"Office 365 订阅 - 1年新订或续订",
+          "description":"个人版激活密钥",
+          "selectContents":["个人版激活密钥  Office 365 订阅 - 1年新订或续订"]
+        },
+        "item2":{
+          "imgs":"images/6GQ-00089-300Wx180H-1.png",
+          "name":"Office 365 订阅 - 1年新订或续订",
+          "description":"家庭版激活密钥",
+          "selectContents":["家庭版激活密钥   Office 365 订阅 - 1年新订或续订"]
+        }
+      }
+    },
+    "productBlock3":{
+      "banner":{
+        "imgs":"images/student-accessory.png",
+        "title":"精选微软配件",
+        "title2":"为爱机赋能，伴你一路前行",
+        "btn":"了解更多"
+      },
+      "list":{
+        "item1":{
+          "imgs":"images/MIC2520-300Wx180H-1.png",
+          "name":"微软 Pro IntelliMouse 游戏鼠标",
+          "description":"暗砂",
+          "selectContents":["暗砂  微软 Pro IntelliMouse 游戏鼠标","银珀  微软 Pro IntelliMouse 游戏鼠标"]
+        },
+        "item2":{
+          "imgs":"images/MIC2427-300Wx180H-1.png",
+          "name":"微软时尚设计师鼠标",
+          "description":"黑色",
+          "selectContents":["黑色  微软时尚设计师鼠标"]
+        },
+        "item3":{
+          "imgs":"images/MIC1495-300Wx180H-1.png",
+          "name":"微软Designer蓝牙® 套装",
+          "description":"",
+          "selectContents":["微软Designer蓝牙® 套装"]
+        },
+        "item4":{
+          "imgs":"images/MIC1343-300Wx180H-1.png",
+          "name":"微软Designer蓝牙鼠标",
+          "description":"黑色",
+          "selectContents":["黑色  微软Designer蓝牙鼠标"]
+        },
+        "item5":{
+          "imgs":"images/MIC0705-300x180.png",
+          "name":"微软无线便携鼠标 1850",
+          "description":"暗夜奢华黑",
+          "selectContents":["暗夜奢华黑  微软无线便携鼠标 1850","深海蓝  微软无线便携鼠标 1850","樱花粉  微软无线便携鼠标 1850","火焰红  微软无线便携鼠标 1850","靛青紫  微软无线便携鼠标 1850","蜜桃粉  微软无线便携鼠标 1850","天青蓝  微软无线便携鼠标 1850"]
+        },
+        "item6":{
+          "imgs":"images/MIC1610-300Wx180H-1.png",
+          "name":"微软无线便携蓝牙鼠标 3600",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软无线便携蓝牙鼠标 3600","珊瑚红  微软无线便携蓝牙鼠标 3600","星空蓝  微软无线便携蓝牙鼠标 3600"]
+        },
+        "item7":{
+          "imgs":"images/Windows-8-Sculpt-Ergonomic-Mouse-0436-00000-MIC0436-300x180.png",
+          "name":"微软 Sculpt 人体工学鼠标",
+          "description":"",
+          "selectContents":["微软 Sculpt 人体工学鼠标"]
+        },
+        "item8":{
+          "imgs":"images/MIC1674-300Wx180H-1.png",
+          "name":"微软无线显示适配器 - 2016款",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软无线显示适配器 - 2016款"]
+        },
+        "item9":{
+          "imgs":"images/MIC0440-300x180.png",
+          "name":"微软 Sculpt 舒适滑控鼠标",
+          "description":"",
+          "selectContents":["微软 Sculpt 舒适滑控鼠标"]
+        },
+        "item10":{
+          "imgs":"images/MIC0325-300x180.png",
+          "name":"微软 Sculpt 无线便携鼠标",
+          "description":"典雅黑",
+          "selectContents":["典雅黑  微软 Sculpt 无线便携鼠标"]
+        },
+        "item11":{
+          "imgs":"images/MIC1615-300Wx180H-1.png",
+          "name":"微软无线鼠标 900",
+          "description":"黑色",
+          "selectContents":["黑色  微软无线鼠标 900"]
+        },
+        "item12":{
+          "imgs":"images/MIC1602-300Wx180H-1.png",
+          "name":"微软无线桌面套装 900",
+          "description":"黑色",
+          "selectContents":["黑色  微软无线桌面套装 900"]
+        },
+        "item13":{
+          "imgs":"images/MIC1869-300Wx180H-1.png",
+          "name":"微软带指纹识别功能的时尚键盘",
+          "description":"",
+          "selectContents":["微软带指纹识别功能的时尚键盘"]
+        },
+        "item14":{
+          "imgs":"images/MIC1870-300Wx180H-1.png",
+          "name":"微软 Modern 鼠标",
+          "description":"",
+          "selectContents":["微软 Modern 鼠标"]
+        }
+      }
+    }
+  }
+}

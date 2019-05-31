@@ -29,7 +29,7 @@ ul{list-style:none;}
 }
 .nav1_Container_L{
     float:left;
-    width:200px;
+    width:auto;
     height:50px;
 }
 .nav1_Container_L img{vertical-align: middle;}
@@ -57,7 +57,8 @@ ul{list-style:none;}
     float:left;
     width:60px;
     height:50px;
-    background:url("../images/gouwche.png");
+    text-align:center;
+    font-size:20px;
 }
 .search_img{
     position: absolute;
@@ -68,6 +69,9 @@ ul{list-style:none;}
     cursor: pointer ;
     background-image: url("../images/search.png");
 }
+.gwc:hover{
+    color:#0078D7;
+}
 .login{
     width:50px;
     float:left;
@@ -75,7 +79,7 @@ ul{list-style:none;}
     font-size:13px;
     position: relative;
     height:50px;
-    z-index: 5;
+    z-index: 2000;
     box-sizing: border-box;
 }
 .userLink{
@@ -236,7 +240,7 @@ ul{list-style:none;}
     width:285px;
     margin-right:20px;
 }
-.description{height:90px;color:#666;margin: 10px 0 5px;cursor: pointer}
+.blockNavList .description{height:90px;color:#666;margin: 10px 0 5px;cursor: pointer}
 .sliderList{width:100%;height:372px;margin:15px 0 40px 0;}
 .listTitle{font-size:30px;line-height:60px;border-bottom:1px solid black;color:#333;}
 .listContainer{width:1180px;height:323px;padding:10px 25px 0 50px;margin:0 auto;box-sizing: border-box}
@@ -294,7 +298,7 @@ ul{list-style:none;}
 .footer_li>div>div{width:50%;text-align:center;font-size:14px;display:inline-block}
 .footer_li>div>div img{width:94%;margin-bottom:10px;}
 
-/*顶部商标*/
+/*底部商标*/
 .copyright_info{width:100%;height:60px;background:#f2f2f2;font-size:12px;}
 .copyright_info .Containerbox>a{width:150px;height:60px;line-height: 60px;color: #333;float:left;}
 .copyright{width: calc(100% - 160px);display:inline-block;}

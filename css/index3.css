@@ -1,0 +1,48 @@
+/*大盒子 广告*/
+button{outline:none;}
+.floatNav{position: fixed;top:0;}
+.mainContainer{width:90%;margin:0 auto;background-image: url('../images/student-banner.png') ;background-size: auto 100%;background-position: center;background-repeat: no-repeat;}
+    /*小盒子*/
+.mainContainer .inner{width:100%;height:100%;    display: flex;box-orient: vertical;flex-direction: column;box-pack: center;justify-content: center;}
+.mainContainer .inner h1{color: #333;line-height: 1.16em;font-size: 36px;margin-bottom: 0.9375%;}   /*大标题*/
+.mainContainer .inner .title{font-size: 32px;margin-bottom: 0.9375%;}       /*小标题*/
+.mainContainer .inner .stepWrap{font-size: 20px;margin-bottom: 2.125%;}     /*文字*/
+.mainContainer .inner .stepWrap a{margin-left:20px;font-size:16px;color:#0067b8;text-decoration: underline;}    /*标签*/
+.mainContainer .inner ul{overflow:auto;margin-bottom: 1.875%;}
+.mainContainer .inner li{float:left;    margin-right: 2.25%;}
+.mainContainer .inner li p{font-size:20px;}
+.mainContainer .inner li span{font-size:16px;}
+.mainContainer .inner button{text-align:center;line-height:35px;width:150px;height:35px;outline:none;background:#da3b01;color:#fff;border:0;cursor:pointer;margin-bottom: 1.875%;}
+.mainContainer .inner>a{text-decoration: underline;color:#0067b8;font-size:16px;}
+
+/*小导航条*/
+.navBar{width:100%;height:62px;margin:2px 0;max-width: 1180px;background:white;}
+.navBar a{width:33.3%;height:62px;float:left;text-align:center;line-height:62px;padding:2px 0;color:#fff;font-size:24px;border-left: 1px solid #fff;box-sizing: border-box;}
+.navBar a:nth-of-type(1){background:#0378d7}
+.navBar a:nth-of-type(2){background:#fa621e}
+.navBar a:nth-of-type(3){background:#f33900}
+
+/*主题列表*/
+    /*广告位*/
+.productBanner{height:273px;background-size: auto 100%;background-position: center;color: #333;background-repeat: no-repeat;margin: 0 auto 27px;}
+
+.productBanner .inner{width: 90%;margin:0 auto;height: 100%;display: flex;box-orient: vertical;flex-direction: column;box-pack: center;justify-content: center;}
+.productBanner .inner .textContent{width:50%;color:#fff;}
+.productBlock:nth-of-type(2) .productBanner .inner .textContent{color:#333;}
+.productBanner .inner .textContent h2{font-size: 48px;font-weight: normal;line-height: 1.25em;margin-bottom: 10px;white-space: nowrap;}
+.productBanner .inner .textContent h3{font-size: 30px;font-weight: normal;line-height: 1.46em;margin-bottom: 5px;}
+.productBanner .inner .textContent p:nth-of-type(1){font-size: 18px;  line-height: 1.5em;  margin-bottom: 28px;}
+.productBanner .inner .textContent button{    display: inline-block;width: 150px;height: 35px;line-height: 35px;border: none;text-align: center;font-size: 14px;background-color: #da3b01;color: #fff;cursor: pointer;outline:none;}
+    /*列表位*/
+.productBlock{margin-bottom:90px;}
+.productBlock ul{overflow:auto;}
+.productBlock ul li{width:23.875%;float:left;margin-right: 1.5%;border: 1px solid #bfbcbc;margin-bottom: 1.25%;box-sizing:border-box;padding:100px 0 22px;}
+.productBlock ul li:nth-of-type(4n){margin-right:0;}
+.productBlock ul li .contents{padding:0 8.63874346%;box-sizing: border-box;}
+.productBlock ul li .contents img{width:100%;margin-bottom:5px;}
+.productBlock ul li .contents p{    font-size: 18px;line-height: 26px;}
+.productBlock ul li .contents .desc{height:78px;width:100%; overflow: hidden;}
+.productBlock ul li .contents select{margin-top:4px;-webkit-appearance: none;outline:none;margin-bottom:36px;background-image:url('../images/jiantou.png');width: 100%;height: 30px;line-height: 30px;border: 1px solid #cccccc;padding: 0 10px;background-repeat: no-repeat;background-position: right center;background-size: 28px;padding-right: 28px;}
+.productBlock ul li .contents .priceAndBuy{width:100%;}
+.productBlock ul li .contents .priceAndBuy span{width:50%;display:inline-block;vertical-align: middle;color:#da3b01;font-size:18px;}
+.productBlock ul li .contents .priceAndBuy button{width:50%;height:35px;cursor:pointer;display: inline-block;background:#da3b01;text-align: center;color:#fff;border:none;}
