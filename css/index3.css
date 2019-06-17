@@ -46,3 +46,9 @@ button{outline:none;}
 .productBlock ul li .contents .priceAndBuy{width:100%;}
 .productBlock ul li .contents .priceAndBuy span{width:50%;display:inline-block;vertical-align: middle;color:#da3b01;font-size:18px;}
 .productBlock ul li .contents .priceAndBuy button{width:50%;height:35px;cursor:pointer;display: inline-block;background:#da3b01;text-align: center;color:#fff;border:none;}
+
+/*底部描述*/
+.categoryIntroduce{margin:70px 0;}
+.categoryIntroduce h1{font-size: 20px;line-height: 20px;font-weight: normal;margin-bottom: 16px;color: #000;}
+.categoryIntroduce p{font-size: 14px;line-height: 20px;color: #000;}
+.categoryIntroduce a{color:#0067b8;}

@@ -358,5 +358,9 @@
         }
       }
     }
+  },
+  "categoryIntroduce":{
+    "h1":"微软教育优惠",
+    "p":"欢迎来到微软官方商城发现更多教育优惠！若您是（1）就读于大专及大专以上院校（包括已被录取）的学生，或（2）任职于大专及大专以上院校的教职员，在提交您的.edu邮箱完成认证激活后，即可享受<a href='javascript:'>Surface</a>、<a href='javascript:'>Office</a>和配件等多种产品的微软教育优惠。<a href='javascript:'>Surface Pro 4</a>与<a href='javascript:'>Surface Book</a> 系列产品现已加入微软教育优惠。若您满足上述优惠条件，并喜爱 Surface 产品，欢迎光临微软官方商城，享受<a href='javascript:'>Surface教育优惠</a>。Surface以其富有创意的科技，期待着以一种全新的方式改变您的校园生活，带来新的乐趣，助您成就更多。"
   }
 }

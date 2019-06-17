@@ -38,22 +38,28 @@ $(function () {
 
             //*轮播图
             $.each(data.images,function (i,t) {
-                var img = $('<a href="#"></a>').append($('<img width="1180"/>').prop('src',t));
+                var img = $('<a href="#"></a>').append($('<img/>').prop('src',t));
+                var liTag =$('<li></li>').append(img).appendTo('.lunbo');
                 var indexs = $('<span class="iconfont icon-yuanxuankuang1 index"></span>');
-                $('<li></li>').append(img).appendTo('.lunbo');
                 $('.indexs').append(indexs)
+                if($('.indexs').children().length===7){
+                    $('.indexs span:gt(1)').remove()
+                }
+                var bannerText = $('<div class="bannerText"></div>').appendTo(img)
+                $('<div class="productName"></div>').appendTo(bannerText).html(data.bannerText.productName[i])
+                $('<div class="desc"></div>').html(data.bannerText.desc[i]).appendTo(bannerText)
+                $('<div class="price"></div>').html(data.bannerText.price[i]).appendTo(bannerText)
+                $('<div class="oprate"></div>').html("立即购买").appendTo(bannerText)
             });
-            var lastimg = $('<a href="#"></a>').append($('<img width="1180"/>').prop('src',data.images[0]));
+            var lastimg = $("<li></li>").append($('<a href="#"></a>').append($('<img width="1180"/>').prop('src',data.images[0])));
             $('.index:first').removeClass('icon-yuanxuankuang1').addClass('icon-yuanxuankuang2');
             $(lastimg).appendTo('.lunbo');
-            $('.index').click(function () {
-                $('.lunbo').stop();
-                index($(this));
-                $('.lunbo').animate({
-                    'left':$(this).index()*-1180
-                });
-                i=$(this).index()
-            });
+            var bannerText = $('<div class="bannerText"></div>').appendTo(lastimg)
+            $('<div class="productName"></div>').appendTo(bannerText).html(data.bannerText.productName[0])
+            $('<div class="desc"></div>').html(data.bannerText.desc[0]).appendTo(bannerText)
+            $('<div class="price"></div>').html(data.bannerText.price[0]).appendTo(bannerText)
+            $('<div class="oprate"></div>').html("立即购买").appendTo(bannerText)
+
             //轮播图*
 
             //*产品广告
@@ -76,18 +82,19 @@ $(function () {
                 var img = $('<a href="#"></a>').append($('<img width="211"/>').prop('src',data.sliderList.images[i]));
                 var h4 = $('<h4 class="Surface "></h4>').html(data.sliderList.title[i]);
                 var p = $('<p class=""></p>').html(data.sliderList.description[i]);
+                var box = $('<li></li>').append(img,h4,p).appendTo('.listContainerInner');
                 if(data.sliderList.Price[i]){
-                    var Price = $('<div class="boxPrice">售价 : <span class="Price">'+data.sliderList.Price[i]+'</span>起 </div>');
-                    $('.listContainerInner').append($('<li></li>').append(img,h4,p,Price));
-                }else{
-                    $('.listContainerInner').append($('<li></li>').append(img,h4,p));
+                    $('<div class="boxPrice">售价 : <span class="Price">'+data.sliderList.Price[i]+'</span>起 </div>').appendTo(box);
                 }
-            })
+                if(data.sliderList.tag[i]){
+                    $("<span class='tag'></span>").html(data.sliderList.tag[i]).appendTo(box)
+                }
+            });
             //店长推荐*
             //*各类列表
-            $.each(data.productChannels,function (i,t) {
+            $.each(data.productChannels,function (i,t){
                 var obj = this;
-                var box = $('<div></div>').addClass('productChannel').appendTo($('.productChannels .Containerbox'))
+                var box = $('<div></div>').addClass('productChannel').appendTo($('.productChannels .Containerbox'));
                 var title = $('<div></div>').html(this.channelTitle).addClass('channelTitle');
                 var inner = $('<p></p>').html(this.inner);
                 var a = $('<a href="#" class="viewmore underline"></a>').html('查看更多');
@@ -163,22 +170,11 @@ $(function () {
                 });
             })
             //尾部列表*
+            lunbo()
         }
     });
     //窗口滚动事件
-    if($('.nav2').length!=0){
-        var max  = $('.nav2').offset().top
-    }
-    $(document).scroll(function () {
-        var Top = $(document).scrollTop();
-        if(Top>max){
-            $('.nav2').css({'position':'fixed','top':0});
-            $('.sliderContainer').css('margin-top','75px')
-        }else{
-            $('.nav2').css({'position':'relative'});
-            $('.sliderContainer').css('margin-top','0')
-        }
-    });
+    scrollFix('.nav2','.sliderContainer');
     //客服点击事件
     $('.kefu>button').click(function () {
         $('.kefu').toggleClass('show');
@@ -190,15 +186,15 @@ $(function () {
         //关闭事件
     $('.kefu .close').click(function () {
             $('.chatDialog').hide();
-            $('.kefu').removeClass('show')
+            $('.kefu').removeClass('show');
             $('.kefu button').show()
         }
     );
     //订阅点击事件
     $('.dingyue').click(function () {
-        $('.inactDialog ').toggleClass('show')
+        $('.inactDialog ').toggleClass('show');
         if($('.inactDialog').hasClass('show')){
-            $('.inactDialog').show()
+            $('.inactDialog').show();
             $('.dingyue').hide()
         }
     });
@@ -206,80 +202,25 @@ $(function () {
         $('.dingyue').show();
         $('.inactDialog ').removeClass('show').hide()
 
-    })
+    });
 
 
     $('.login').hover(function () {
-        $(this).css({border:'1px solid #e0e0e0','border-bottom':'1px solid white','background':'white'});
+        $(this).css({border:'1px solid #e0e0e0','border-bottom':'1px solid white','background':'white',color:'#0067b8'});
         $('.userLink').show()
     },function () {
-        $(this).css({border:0,'background':'#f5f5f5'});
+        $(this).css({border:0,'background':'#f5f5f5',color:'#333'});
         $('.userLink').hide()
     });
     $(document).on('click','.nav2_list_li',function () {
-        $(this).siblings().find('ul').slideUp();
-        $(this).find('ul').slideToggle();
+        $(this).siblings().find('ul').stop().slideUp();
+        $(this).find('ul').stop().slideToggle();
     });
     $(document).on('mouseenter','.subMenu>li',function () {
         $(this).addClass('skyblue')
     }).on('mouseleave','.subMenu>li',function () {
         $(this).removeClass('skyblue')
     });
-    //*轮播图
-    $('.jiant').click(function () {
-        $(this).addClass('borderB')
-    });
-    function index(t){
-        $(t).siblings().removeClass('icon-yuanxuankuang2').addClass('icon-yuanxuankuang1');
-        $(t).removeClass('icon-yuanxuankuang1').addClass('icon-yuanxuankuang2')
-    }
-    var i=0,t;
-    $('.icon-Right-').click(function () {
-        $('.lunbo').stop();
-        i+=1;
-        if(i===$('.lunbo').find('img').length){
-            i=1;
-            $('.lunbo').css('left',0)
-        }
-        $('.lunbo').animate({
-            'left':i*-1180
-        });
-        t=i;
-        if(t===5){
-            t=0
-        }
-        var dian = $('.index').eq(t);
-        index(dian)
-    });
-    $('.icon-Left-').click(function () {
-        $('.lunbo').stop();
-        i--;
-        if(i===-1){
-            $('.lunbo').css('left',($('.lunbo').find('img').length-1)*-1180);
-            i=$('.lunbo').find('img').length-2
-        }
-        $('.lunbo').animate({
-            'left':i*-1180
-        });
-        t=i;
-        if(t===5){
-            t=0
-        }
-        var dian = $('.index').eq(t);
-        index(dian)
-    });
-    function time(){
-        Time = setInterval(function () {
-            $('.icon-Right-').click()
-        },2000)
-    }
-    time();
-    $('.mainContainer').hover(function () {
-        clearInterval(Time)
-    },function () {
-        time()
-    })
-    //轮播图*
-
+//*轮播图
 
 });

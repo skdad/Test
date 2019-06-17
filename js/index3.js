@@ -1,3 +1,4 @@
+
 $(function () {
     $.ajax({
         type: "get",
@@ -38,35 +39,10 @@ $(function () {
                 })
                 //内容区*
             })
+            //底部描述
+            $('.categoryIntroduce h1').html(data.categoryIntroduce.h1)
+            $('.categoryIntroduce p').html(data.categoryIntroduce.p)
         }
     });
-    scrollFix('.nav2','.mainContainer','.navBar','.product')
-    function scrollFix(nav1,next1,nav2,naxt2){
-        $(document).off('scroll');
-        var navTop = $(nav1).offset().top;
-        var navHei = $(nav1).height();
-        var nav2Top = $(nav2).offset().top;
-        var nav2Hei = $(nav2).height();
-        $(document).scroll(function () {
-            var scroll = $(document).scrollTop();
-            if(scroll>navTop){
-                $(nav1).addClass('floatNav');
-                $(next1).css('margin-top',navHei+'px')
-            }else{
-                $(nav1).removeClass('floatNav');
-                $(next1).css('margin-top',"0")
-            }
-            if(nav2){
-                if(scroll+navHei>nav2Top){
-                    $(nav2).addClass('floatNav').css('top',navHei);
-                    $(naxt2).css('margin-top',nav2Hei)
-                }else{
-                    $(nav2).removeClass('floatNav');
-                    $(naxt2).css('margin-top','0')
-                }
-            }
-
-        })
-    }
-
+    scrollFix('.nav2','.mainContainer','.navBar','.product');
 });
