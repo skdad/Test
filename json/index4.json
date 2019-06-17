@@ -1,0 +1,189 @@
+{
+  "slider":{
+    "url":["images/Acc-TIP-Media-5-20180222.jpg","images/Acc-TIP-Media-Xbox-20190601.jpg"],
+    "position":[{"bottom":"35%","right":["27.2%","7.2%"]},{"bottom":"21%","right":["23.625%","5%"]}],
+    "color":["#0078d7","#910f1b"],
+    "aTag":["我有一台旧机","我有多台旧机"]
+  },
+  "banner2":{
+    "url":"images/SurfaceGo_PC_v2_new.jpg"
+  },
+  "informationBoxs":{
+    "informationBoxsTag1":{
+      "img":["images/new-infor-01.png","images/new-infor-02.png","images/new-infor-03.png","images/new-infor-04.png"],
+      "tips":[true,true,true],
+      "text":["支持超万种<br>机型回收","注意保护<br>信息及隐私","提供15天<br>价格保障","60天优惠券<br>使用期限"]
+    },
+    "informationBoxsTag2":{
+      "url":"images/new-advantage21130.jpg"
+    },
+    "informationBoxsTag3":{
+      "list1":{
+        "url":"images/TradeInMedia-Product-01.png",
+        "title":"全新Surface Pro 6",
+        "text":"百变，耀出众",
+        "price":"售价:¥ 6,988起"
+      },
+      "list2":{
+        "url":"images/TradeInMedia-Product-02.png",
+        "title":"Surface Laptop 2 ",
+        "text":"匠心，耀出众",
+        "price":"售价:¥ 7,688起"
+      },
+      "list3":{
+        "url":"images/TradeInMedia-Product-03.png",
+        "title":"Surface Book 2 ",
+        "text":"Surface Book 2 ",
+        "price":"售价:¥ 9,628起"
+      }
+    }
+  },
+  "advantage_boxs":{
+    "advantage_box1":{
+      "backgroundImg":"images/new-advantage-01.png",
+      "h4":"全面保障信息和隐私安全",
+      "p":["俐通集团是亚太地区首家同时获得R2/RIOS及NAID（AAA）认证的企业，","基于超过16年的电子产品回收处理经验，为微软提供的一站式回收处理及数据清除服务，","确保客户的个人隐私得到最大限度的保障"],
+      "li":{
+        "list1":{
+          "image":"images/new-advantage-tag1-01.png",
+          "p":"信息永久性清除<br>确保隐私安全",
+          "span":true
+        },
+        "list2":{
+          "image":"images/new-advantage-tag1-01.png",
+          "p":"独立完成全部<br>流程和操作",
+          "span":true
+        },
+        "list3":{
+          "image":"images/new-advantage-tag1-01.png",
+          "p":"严格遵守本地<br>和国际环保条例",
+          "span":false
+        }
+      }
+    },
+    "advantage_box2":{
+      "backgroundImg":"images/new-advantage-02.jpg",
+      "h4":"为环保贡献力量",
+      "p":["除了数据安全外，俐通集团还致力于环保地处理不可再用的废旧电子产品，防止二次污染产生,","现在每回收一台电脑，就相当于减少一台7寸电脑75%的碳排放量。"],
+      "li":{
+        "list1":{
+          "image":"images/new-advantage-tag2-01.png",
+          "p":"符合国际和<br>当地环保要求",
+          "span":true
+        },
+        "list2":{
+          "image":"images/new-advantage-tag2-02.png",
+          "p":"专业处理防止<br>产生二次污染",
+          "span":true
+        },
+        "list3":{
+          "image":"images/new-advantage-tag2-03.png",
+          "p":"先进工艺提高<br>材料利用率",
+          "span":false
+        }
+      }
+    },
+    "advantage_box3":{
+      "backgroundImg":"images/new-advantage-03.jpg",
+      "h4":"超万种机型 想换就换",
+      "p":["不论品牌和型号，可一次性多台旧机打包，以环保的方式","获得叠加优惠，让您以最少的花费、最环保的方式获得新产品。"],
+      "li":{
+        "list1":{
+          "image":"images/new-advantage-tag3-01.png",
+          "p":"多台打包<br>享叠加优惠",
+          "span":true
+        },
+        "list2":{
+          "image":"images/new-advantage-tag3-02.png",
+          "p":"开创跨品牌<br>回收服务",
+          "span":true
+        },
+        "list3":{
+          "image":"images/new-advantage-tag3-03.png",
+          "p":"支持超万种<br>产品回收",
+          "span":false
+        }
+      }
+    },
+    "advantage_box4":{
+      "backgroundImg":"images/new-advantage-04.jpg",
+      "h4":"15天价格保障",
+      "p":["微软官方平台为您提供专业的回收服务和15天价格保障，","优惠券使用期限长达60天，安全又放心。"],
+      "li":{
+        "list1":{
+          "image":"images/new-advantage-tag4-01.png",
+          "p":"15天价格保障 ",
+          "span":true
+        },
+        "list2":{
+          "image":"images/new-advantage-tag4-02.png",
+          "p":"60天优惠券<br>使用期限",
+          "span":true
+        },
+        "list3":{
+          "image":"images/new-advantage-tag4-03.png",
+          "p":"在线客服服务",
+          "span":false
+        }
+      }
+    }
+  },
+  "advantage_tag5":{
+      "swiper-slide1":{
+        "normal":{
+          "image":"images/new-scroll-05.png",
+          "txt":"旧电脑用了几年跑不动了，而且又笨重，就想换轻薄的Surface Book，对比几家平台后发现官网的这个活动算下来是最好的。客服也相当贴心，主动来电询问是否寄件或者帮忙叫顺丰快递上门收件。发放优惠券的时候，也会来电告知优惠券已经发放。服务态度不错，是很好的一次旧机换新体验。",
+          "Recovery":"回收产品：笔记本X1",
+          "buy":"购买产品：Surface Book"
+        },
+        "normal2":{
+          "image":"images/new-scroll-06.png",
+          "txt":"既可以回收旧机，还有指定机型的补贴,实在是一举两得啊。而且参加活动后，第三天就收到优惠券了，立马可以购物，这速度确实出乎我的意料，哈哈哈好快！家里其实有一台闲置已久的索尼游戏机，一直没想好怎么处理，正好想入手个微软的游戏机试试，就果断参与了，购买新机只需要使用优惠券抵扣就可以，总的体验还是相当满意哒^_^ ",
+          "Recovery":"回收产品：笔记本X3，平板电脑X3，手机X7",
+          "buy":"购买产品：Surface Pro4"
+        }
+      },
+    "swiper-slide2":{
+      "normal":{
+        "image":"images/new-scroll-01.png",
+        "txt":"不看不知道，一看吓一跳，家里竟然已累积了10多台机器……用不上又占地方，幸好有微软以旧换新可以多台打包回收，真是一次性解决了我的心病，13台全部打包寄去了！刚开始还担心优惠券能不能一次性使用，咨询客服说可以，旧机钱和指定优惠加一块，最后只付了一点点钱就拿到Pro4嘻嘻。这次既清掉家里一大堆用不上的老机子，又实实在在的在购买新机的时候省了不少钱，确实不错！",
+        "Recovery":"回收产品：笔记本X3，平板电脑X3，手机X7",
+        "buy":"购买产品：Surface Pro4"
+      },
+      "normal2":{
+        "image":"images/new-scroll-02.png",
+        "txt":"既可以回收旧机，还有指定机型的补贴,实在是一举两得啊。而且参加活动后，第三天就收到优惠券了，立马可以购物，这速度确实出乎我的意料，哈哈哈好快！家里其实有一台闲置已久的索尼游戏机，一直没想好怎么处理，正好想入手个微软的游戏机试试，就果断参与了，购买新机只需要使用优惠券抵扣就可以，总的体验还是相当满意哒^_^ ",
+        "Recovery":"回收产品：一台索尼的游戏机",
+        "buy":"购买产品：Xbox One S"
+      }
+    },
+    "swiper-slide3":{
+      "normal":{
+        "image":"images/new-scroll-03.png",
+        "txt":"家在内蒙古，但是顺丰物流确实给力，及时收件不耽误，活动运费也全包，根本不需要我出运费。整个活动参加下来也很顺利！家里的苹果平板已经很久不用了，一直放着吸尘，想购买一台Surface Pro 4就去商城逛了一圈，发现可以参加以旧换新，既能回收旧机，又能拿到优惠券，便宜了不少！现在新机到手确实越用越顺手呢。",
+        "Recovery":"回收产品：苹果的平板电脑X1",
+        "buy":"购买产品：Surface Pro4"
+      },
+      "normal2":{
+        "image":"images/new-scroll-04.png",
+        "txt":"嗯 就是冲着这个活动来的……拿一台旧手机在网上下一个以旧换新的订单，勾选 Surface Pro 4的额外补贴，顺丰寄出后就不需要自己操心了，还是在微软官网，整个过程十分顺利。正是因为这个活动，用不上的旧机倒帮了大忙，赞。",
+        "Recovery":"回收产品：诺基亚的手机X1",
+        "buy":"购买产品：Surface Pro4"
+      }
+    },
+    "swiper-slide4":{
+      "normal":{
+        "image":"images/new-scroll-07.png",
+        "txt":"这是入手的第二款微软平板电脑了，学习办公轻度娱乐神器，家有台式机或者游戏主机的搭配这个二合一笔记本非常合适。而且这次还拿到了以旧换新的优惠券，据说回收后的旧机子都会做数据清除，不用担心数据会泄露，真的是很专业很放心。",
+        "Recovery":"回收产品：微软平板电脑X1",
+        "buy":"购买产品：Surface Pro4"
+      },
+      "normal2":{
+        "image":"images/new-scroll-08.png",
+        "txt":"很开心参加了这个活动，一来总算解决了家里堆积如山的闲置机，还是环保处理，不会污染环境；二来这个以旧换新还有购买Surface Book的优惠补贴。这台机我想买很久了，最终购买Surface Book的价格我也很满意。家里不知不觉就积攒了一堆旧机，如果不是因为微软以旧换新的活动，可能有一天就直接扔垃圾桶了。 ",
+        "Recovery":"回收产品：手机X2，笔记本X2",
+        "buy":"购买产品：Surface Book"
+      }
+    }
+  }
+}

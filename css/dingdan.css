@@ -1,0 +1,32 @@
+input{outline:none;}
+.content_block{width:940px;height:100%;margin:0 auto;}
+/*1*/
+.content_block .component{width:100%;height:100%;}
+.content_block .component h1{border-bottom: 1px solid #b9b9b9;font-size: 40px;line-height: 40px;color: #414141;font-weight: normal;padding: 72px 0 13px 0}
+ .component_block {width:100%;height:100%;padding-top:28px;margin-bottom:48px;overflow: hidden;}
+ /*表单区*/
+ .component_block .form-content{width:507px;float: left;margin-right: 112px;}
+ .component_block .form-information{float: left;width: 320px;margin-top:-3px;}
+.component_block .form-content>div{overflow:hidden;padding-bottom:10px;}
+.component_block .form-content>div.required{color:#eb3900;text-align:center;padding:6px 0;cursor:auto;}
+.component_block .form-content>div.required:before{content: "*";padding-right:10px;font-size:18px;}
+.component_block .form-content>div:last-child input{color: #ffffff;font-size: 14px;background: #00bcf2;text-align: center;padding: 0 36px;cursor:pointer;height: 40px;line-height: 40px;float:right;border:none;}
+.component_block .form-content>div:last-child input:hover{background:#eb3900;}
+    /*输入列表*/
+.component_block .form-content>div>span{width:104px;display:inline-block;cursor: default;font-size: 14px;color: #000000;letter-spacing: -0.1em;position: relative;top:10px;text-align:right;}
+.component_block .form-content>div>span:before{content: "*";color:red;padding-right:5px;font-size: 18px;}
+.component_block .form-content>div>input[type = 'text']{width: 380px;border: 1px solid #dedede;color: #000000;padding: 5px 10px 7px 17px;margin-left:19px;box-sizing: border-box;height:36px;font-size:14px;float:right;}
+/* 说明区*/
+.form-information p{padding-bottom: 25px;font-size: 16px;line-height: 24px;color: #414141;}
+.form-information p>a{color:#00bcf2}
+
+/*2*/
+.component h2{text-align:center;padding: 19px 0 12px 0;color:#001092;line-height:46px;font-weight: normal;font-size: 36px;border-bottom: 1px solid #b9b9b9;}
+.imgList{font-size:0;margin-bottom:15px;}
+.component_block .imgList>a{display:inline-block;margin-left:9px;}
+.imgList>a:first-child{margin-left:0;}
+    /*电话*/
+.component_block .phone{ text-align: left;background: #f7f7f7;padding: 7px 0 6px 55px;}
+.component_block .phone p{color: #104090;    font-family: "Segoe UI Semibold","Microsoft YaHei",Arial,sans-serif;font-weight: normal;font-size: 16px;line-height: 16px;display: inline-block;background: url('../images/icon-sprite.png') left -100px no-repeat;padding: 3px 16px 6px 34px;margin: 0 0 0 15px;}
+.component_block .phone p a{color:#104090}
+.component_block .phone p:nth-of-type(2){background-position:left -150px;}
