@@ -3,6 +3,7 @@
 body{min-width:1180px;}
 a{text-decoration: none;}
 ul{list-style:none;}
+.scrollTop{width:35px;height:35px;text-align:center;background: #858585;color:#fff;outline:none;border:none;cursor:pointer;position: fixed;right:0;bottom:30px;}
 .Containerbox{
     width:1180px;
     margin:0 auto;
@@ -142,7 +143,7 @@ ul{list-style:none;}
     float:left;
 }
 .nav2_list_li{
-    font-size:15px;
+    font-size:14px;
     list-style:none;
     float:left;
     padding:0 25px;

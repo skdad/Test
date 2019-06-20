@@ -222,5 +222,5 @@ $(function () {
         $(this).removeClass('skyblue')
     });
 //*轮播图
-
+    scrollTop();
 });

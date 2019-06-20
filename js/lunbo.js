@@ -161,3 +161,20 @@ function abc(obj) {
         time()
     });
 }
+
+//回到顶部
+function scrollTop(){
+    console.log(1)
+    $(document).scroll(function () {
+        console.log($(document).scrollTop());
+        if($(document).scrollTop()>250){
+            $('.scrollTop').show()
+        }else{
+            $('.scrollTop').hide()
+        }
+    });
+    $('.scrollTop').click(function () {
+        $('html').animate({scrollTop:0},300)
+    });
+}
+

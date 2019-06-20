@@ -23,7 +23,6 @@ $(function () {
             $('.banner1 ul').width($('.banner1 ul').find('li').length*1180);
             $('.index:first').removeClass('icon-yuanxuankuang1').addClass('icon-yuanxuankuang2');
             abc('.banner1 ul');
-
             //2.广告
             $('.banner2>img').prop('src',data.banner2.url)
 
@@ -34,8 +33,8 @@ $(function () {
                 if(data.informationBoxs.informationBoxsTag1.tips[i]){
                     $('<span></span>').appendTo(liTag);
                 }
-                var img = $('<img/>').prop('src',t).appendTo(liTag);
-                var p = $('<p></p>').html(data.informationBoxs.informationBoxsTag1.text[i]).appendTo(liTag);
+                $('<img/>').prop('src',t).appendTo(liTag);
+                $('<p></p>').html(data.informationBoxs.informationBoxsTag1.text[i]).appendTo(liTag);
             });
                 //信息3.2
             $('.information-boxs-tags2 img').prop('src',data.informationBoxs.informationBoxsTag2.url)
@@ -87,5 +86,5 @@ $(function () {
         }
     });
     //轮播图
-
+    scrollTop();
 });

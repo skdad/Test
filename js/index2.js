@@ -93,17 +93,6 @@ $(function () {
         }
     });
 
-
-
-
-
-
-
-
-
-
-
-
     //*轮播图
     $('.jiant').click(function () {
         $(this).addClass('borderB')
@@ -161,4 +150,5 @@ $(function () {
         time()
     })
     //轮播图*
+    scrollTop();
 });

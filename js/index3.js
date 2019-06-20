@@ -40,9 +40,16 @@ $(function () {
                 //内容区*
             })
             //底部描述
-            $('.categoryIntroduce h1').html(data.categoryIntroduce.h1)
+            $('.categoryIntroduce h1').html(data.categoryIntroduce.h1);
             $('.categoryIntroduce p').html(data.categoryIntroduce.p)
+
         }
     });
     scrollFix('.nav2','.mainContainer','.navBar','.product');
+    $('.navBar a').click(function () {
+        var top = ($('.productBlock').eq($(this).index()).offset().top)-62*2;
+        $("html").animate({scrollTop:top},300);
+    })
+
+    scrollTop();
 });
